@@ -15,24 +15,24 @@ body{
 
 .about-section{
     background: url(./img/img2.jpg)no-repeat left;
-    background-size: 55%;
+    background-size: 50%;
     background-color: #fdfdfd;
     overflow: hidden;
-    padding: 100px 0;
+ 
 }
 .inner-container{
     width: 55%;
     float: right;
     background-color: #fdfdfd;
-    padding: 150px;
+    padding: 5px;
 }
 .inner-container h1{
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 900;
 }
 .text{
-    font-size: 15px;
+    font-size: 20px;
     color: #545454;
     line-height: 30px;
     text-align: left;
@@ -65,9 +65,9 @@ body{
     margin-left: 10px;
     padding: 0%;
     position: absolute;
-    top: 20%;
+    top: 8%;
     right: 180%;
-   
+    transform: translate(50% 50%);
     width: 0%;
     height: 0%;
 }
