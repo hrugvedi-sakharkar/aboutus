@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     min-height: 100vh;
     display: flex;
@@ -15,9 +16,10 @@ body{
 
 .about-section{
     background: url(./img/img2.jpg)no-repeat left;
-    background-size: 50%;
+    background-size: 60%;
     background-color: #fdfdfd;
     overflow: hidden;
+    bottom: 1%;
  
 }
 .inner-container{
@@ -28,8 +30,8 @@ body{
 }
 .inner-container h1{
     margin-bottom: 30px;
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 500;
 }
 .text{
     font-size: 20px;
@@ -66,11 +68,12 @@ body{
     padding: 0%;
     position: absolute;
     top: 8%;
-    right: 180%;
+    right: 170%;
     transform: translate(50% 50%);
     width: 0%;
     height: 0%;
 }
+
 
 @media screen and (max-width:1200px){
     .inner-container{
